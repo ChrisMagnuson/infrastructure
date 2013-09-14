@@ -1,0 +1,6 @@
+# /etc/default/tftpd-hpa
+
+TFTP_USERNAME="tftp"
+TFTP_DIRECTORY="/srv/install/Ubuntu/12.04.3/i386/install/netboot"
+TFTP_ADDRESS="0.0.0.0:69"
+TFTP_OPTIONS="--secure --verbose"
