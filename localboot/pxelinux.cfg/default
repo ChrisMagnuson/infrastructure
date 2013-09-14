@@ -1,0 +1,8 @@
+# D-I config version 2.0
+default bootlocal
+label bootlocal
+      menu label ^Boot Local
+      localboot 0
+
+prompt 0
+timeout 1

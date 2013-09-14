@@ -1,0 +1,8 @@
+# D-I config version 2.0
+default installwithpreseed
+label installwithpreseed
+        menu label ^Install 12.04.3 with preseed
+        kernel ubuntu-installer/i386/linux
+        append vga=788 initrd=ubuntu-installer/i386/initrd.gz auto=true netcfg/get_hostname=unassigned url=http://10.172.0.140/preseed/ubuntupreseed.txt interface=auto
+prompt 0
+timeout 1
